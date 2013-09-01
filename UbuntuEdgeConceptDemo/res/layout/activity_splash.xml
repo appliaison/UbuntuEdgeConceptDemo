@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background_720x1280" >
+
+<!--     <ImageView -->
+<!--         android:id="@+id/imageView1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:src="@drawable/splash_logo" -->
+<!--          /> -->
+
+    <FrameLayout
+        android:id="@+id/progressbar_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="320dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+             />
+    </FrameLayout>
+
+</RelativeLayout>
