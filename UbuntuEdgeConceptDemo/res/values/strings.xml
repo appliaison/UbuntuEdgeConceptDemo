@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">UbuntuEdgeConceptDemo</string>
+    <string name="app_name">Ubuntu Edge</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="description">Description</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="step1_header_line1_text">Welcome to Ubuntu Edge</string>
+    <string name="step1_header_line2_text">Please configure your Edge</string>
+    <string name="step_header_standard_message">Step Header</string>
+    
 </resources>

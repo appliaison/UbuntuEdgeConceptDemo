@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    xmlns:app="http://schemas.android.com/apk/res/com.invivo.tempo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_background_1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ubuntu_light_aubergine"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/headerwelcometext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/step1_header_line1_text"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ubuntu_mid_aubergine"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/headertext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/step1_header_line2_text"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/button_edge_skip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edge_gray_50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/headermessagetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/step_header_standard_message"
+                android:textColor="@color/edge_gray"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container3"
+            android:orientation="vertical" >
+
+            <com.appliaison.ubuntuedgeconceptdemo.controllers.step4.ClickWheel
+                android:id="@+id/wheel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/ubuntu_dark_aubergine"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"
+            android:text="Continue"
+            android:background="@drawable/button_edge_continue" />
+    </FrameLayout>
+
+</RelativeLayout>

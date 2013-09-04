@@ -19,6 +19,7 @@ import android.widget.ImageView;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuInflater;
+import com.appliaison.ubuntuedgeconceptdemo.controllers.step1.Step1Activity;
 
 public class SplashScreenActivity extends SherlockActivity
 {
@@ -53,14 +54,14 @@ public class SplashScreenActivity extends SherlockActivity
 			{
 				
 				startActivity(new Intent(SplashScreenActivity.this,
-						MainActivity.class));
+						Step1Activity.class));
 				finish();
 			
 			}
 		};
 
 		timer = new Timer();
-		timer.schedule(timerTask, 3 * 1000);
+		timer.schedule(timerTask, 1 * 1000);
 	}
 
 	/**
@@ -72,7 +73,7 @@ public class SplashScreenActivity extends SherlockActivity
 		super.onCreateOptionsMenu(menu);
 		if (FeaturesConfiguration.isDebug)
 		{
-			getSupportMenuInflater().inflate(R.menu.splash_menu, menu);
+			// getSupportMenuInflater().inflate(R.menu.splash_menu, menu);
 		}
 		return true;
 	}

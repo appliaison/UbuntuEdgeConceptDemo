@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="CustomSlider">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+    </declare-styleable>
+    <declare-styleable name="TriToggleButton">
+
+        <!-- Use one for every state you want to have -->
+        <attr name="state_one" format="boolean" />
+        <attr name="state_two" format="boolean" />
+        <attr name="state_three" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grid_background">#FFFFFF</color>
+    <color name="edge_white">#FFFFFF</color>
+    <color name="cell_empty">#FFFFFF</color>
+    <color name="cell_filled">#FFA99033</color>
+    <color name="cell_empty_hover">#FFE666</color>
+    <color name="cell_filled_hover">#FFFFA4</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="drop_target_color1">#FF993311</color>
+    <color name="drop_target_color2">#FFA99033</color>
+    <color name="drop_target_enabled">#FF009933</color>
+    <color name="drop_target_disabled">#FFdddddd</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="header_normal">#e74c3c</color>
+    <color name="header_pressed">#c0392b</color>
+    <color name="holo_blue">#ff33b5e5</color>
+    <color name="holo_red">#FFAA2222</color>
+    <color name="holo_gray">#cfcfcf</color>
+    <color name="edge_gray">#cfcfcf</color>
+    <color name="edge_gray_50">#50cfcfcf</color>
+    <color name="edge_gray_80">#80cfcfcf</color>
+    <color name="edge_dark_gray">#7c7c3a</color>
+    <color name="transparent_40">#40000000</color>
+    <color name="transparent_80">#80000000</color>
+    <color name="edge_orange">#f69641</color>
+    <color name="edge_blue">#00cccc</color>
+    <color name="edge_blue_80">#8000cccc</color>
+    <color name="edge_green">#e8e86b</color>
+    <color name="edge_green_80">#80e8e86b</color>
+    <color name="edge_drawer_turquoise">#80d6de</color>
+    <color name="edge_drawer_turquoise_dark">#19a5a5</color>
+    <color name="ubuntu_warm_grey">#AEA79F</color>
+    <color name="ubuntu_warm_grey_50">#50AEA79F</color>
+    <color name="ubuntu_orange">#DD4814</color>
+    <color name="ubuntu_orange_50">#50DD4814</color>
+    <color name="ubuntu_light_aubergine">#77216F</color>
+    <color name="ubuntu_mid_aubergine">#5E2750</color>
+    <color name="ubuntu_dark_aubergine">#2C001E</color>
+
+</resources>
